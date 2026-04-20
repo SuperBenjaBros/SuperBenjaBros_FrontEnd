@@ -1,0 +1,44 @@
+<!DOCTYPE html><html lang="es"> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width"><title>SBB | Error 404 🚫</title><meta name="author" content="SuperBenjaBros"><link rel="icon" type="image/svg+xml" href="/favicon.svg"><meta name="description" content="Or You Are And Bad Writter Or Your Friend / Mon / GrandMother Are And Bad Writter"><meta property="og:type" content="website"><meta property="og:image" content="https://superbenjabros.com/Banner.webp"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta name="twitter:card" content="summary_large_image"><link rel="canonical" href="https://superbenjabros.com"><link rel="stylesheet" href="themes/demonic.css"><link rel="stylesheet" href="/_astro/_slug_.DzU4sMFA.css">
+<style>body{background-color:#000;padding:20px}main:after{content:"";filter:blur(4px);z-index:-1;background-image:linear-gradient(#0007,#000b),url(/Multimedia/Background_404.png);background-position:50%;background-size:cover;width:100dvw;height:100dvh;position:absolute;top:0;left:0}::selection{color:#2b2a26;text-shadow:0 0 2px #1c1c1a;background-color:#d2c6a3}
+</style></head> <body>  <main class="text-[#1C1C1A] text-center flex flex-col justify-center items-center drop-shadow-blue-50 my-auto"> <div class="flex flex-col justify-center items-center drop-shadow-xl drop-shadow-amber-50"> <h1 class="text-5xl font-extrabold">404 Error</h1> <h2 class="text-4xl font-bold">Nada Por Aqui</h2> </div> </main> <foooter class="flex justify-between items-baseline prose-a:no-underline w-full mx-auto"> <a class="flex" href="https://SuperBenjaBros.com" target="_blank"> <strong class="group origin-bottom-left hover:scale-105 sm:hover:scale-110 hover:-translate-0.5 transition inline-flex gap-1 items-center text-lg sm:text-xl font-extrabold">— SuperBenjaBros<span class="absolute  top-0 -right-2  origin-bottom-left scale-0 group-hover:scale-75 sm:group-hover:scale-100 transition"> <svg class="w-auto h-3" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M2 2H22M22 2V22M6 18L18 6"></path> </svg> </span> </strong> </a> <div class="h-6 flex gap-2.5 relative top-1">  <a title="Patreon" class="hover:scale-150 hover:-translate-0.5 transition-all origin-bottom hover:ml-1" href="https://patreon.com/SuperBenjaBros" target="_blank" rel="noopener noreferrer nofollow"> <svg class="size-full" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1080 1080" style="enable-background:new 0 0 1080 1080;" xml:space="preserve"><style type="text/css">.st0{fill:#FFFFFF;}</style><path class="st0" d="M1033.05,324.45c-0.19-137.9-107.59-250.92-233.6-291.7c-156.48-50.64-362.86-43.3-512.28,27.2 C106.07,145.41,49.18,332.61,47.06,519.31c-1.74,153.5,13.58,557.79,241.62,560.67c169.44,2.15,194.67-216.18,273.07-321.33 c55.78-74.81,127.6-95.94,216.01-117.82C929.71,603.22,1033.27,483.3,1033.05,324.45z"></path></svg> </a> <a title="🏠" class="home hover:scale-[165%] hover:-translate-0.5 origin-bottom transition-all hover:ml-1" href="../"> <svg class="size-full scale-125" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M4 12L12 4L20 12V20H4Z"></path></svg> </a> </div> </foooter> <!-- {home && (
+<style is:global>
+.home {
+    margin: 0;
+    transform: scaleX(0);
+}
+
+</style>
+)} -->  <script>
+    (function () {
+        function parseYMD(s) {
+            const m = /^(\d{4})-(\d{2})-(\d{2})$/.exec(s);
+            if (!m) return null;
+            return new Date(Date.UTC(+m[1], +m[2] - 1, +m[3]));
+        }
+        function fmt(el, d) {
+            const opts = {};
+            if (el.dataset.dateStyle) opts.dateStyle = el.dataset.dateStyle;
+            if (el.dataset.timeStyle) opts.timeStyle = el.dataset.timeStyle;
+            const loc = el.dataset.locale && el.dataset.locale !== "auto" ? el.dataset.locale : undefined;
+            const finalOpts = Object.keys(opts).length ? opts : { dateStyle: "long" };
+            el.textContent = new Intl.DateTimeFormat(loc, finalOpts).format(d);
+        }
+        function localize(el) {
+            if (el.dataset.localized === "1") return;
+            const raw = el.getAttribute("datetime") || (el.textContent || "").trim();
+            let d = null;
+            if (raw) d = raw.includes("T") ? new Date(raw) : parseYMD(raw);
+            if (!(d && !Number.isNaN(d.getTime()))) return;
+            fmt(el, d);
+            el.dataset.localized = "1";
+        }
+        function run() {
+            document.querySelectorAll("time[data-localize]").forEach(localize);
+        }
+        if (document.readyState === "loading") {
+            document.addEventListener("DOMContentLoaded", run, { once: true });
+        } else {
+            run();
+        }
+    })();
+</script></body></html> 

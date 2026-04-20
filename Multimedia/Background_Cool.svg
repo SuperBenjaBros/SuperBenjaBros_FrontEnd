@@ -1,0 +1,249 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2808" height="7216">
+    <style>
+        html {
+            background-color: var(--bg-solid);
+            color-scheme: dark;
+            will-change: background-image;
+        }
+
+        :root {
+            --bg-solid: #0b0c10;
+
+            --vio-strong: #8b5cf6;
+            --vio-strong-a: 0.65;
+            --vio-soft-a: 0.16;
+            
+            --cyan-strong: #06b6d4;
+            --cyan-strong-a: 0.65;
+            --cyan-soft-a: 0.16;
+            
+            --emer-strong: #10b981;
+            --emer-strong-a: 0.6;
+            --emer-soft-a: 0.14;
+            
+            --rose-strong: #fb7185;
+            --rose-strong-a: 0.65;
+            --rose-soft-a: 0.16;
+            
+            --blue-strong: #3b82f6;
+            --blue-strong-a: 0.65;
+            --blue-soft-a: 0.16;
+            
+            --amber-strong: #f59e0b;
+            --amber-strong-a: 0.6;
+            --amber-soft-a: 0.14;
+            
+            --bg-solid: #0b0c10;
+        }
+    </style>
+    <defs>
+        <radialGradient id="g1">
+            <stop offset="0%" stop-color="var(--vio-strong)" stop-opacity="var(--vio-strong-a)"/>
+            <stop offset="28%" stop-color="var(--vio-strong)" stop-opacity="var(--vio-soft-a)"/>
+            <stop offset="56%" stop-color="var(--vio-strong)" stop-opacity="0"/>
+        </radialGradient>
+        <radialGradient id="g2">
+            <stop offset="0%" stop-color="var(--cyan-strong)" stop-opacity="var(--cyan-strong-a)"/>
+            <stop offset="28%" stop-color="var(--cyan-strong)" stop-opacity="var(--cyan-soft-a)"/>
+            <stop offset="55%" stop-color="var(--cyan-strong)" stop-opacity="0"/>
+        </radialGradient>
+        <radialGradient id="g3">
+            <stop offset="0%" stop-color="var(--emer-strong)" stop-opacity="var(--emer-strong-a)"/>
+            <stop offset="30%" stop-color="var(--emer-strong)" stop-opacity="var(--emer-soft-a)"/>
+            <stop offset="56%" stop-color="var(--emer-strong)" stop-opacity="0"/>
+        </radialGradient>
+        <radialGradient id="g4">
+            <stop offset="0%" stop-color="var(--rose-strong)" stop-opacity="var(--rose-strong-a)"/>
+            <stop offset="28%" stop-color="var(--rose-strong)" stop-opacity="var(--rose-soft-a)"/>
+            <stop offset="56%" stop-color="var(--rose-strong)" stop-opacity="0"/>
+        </radialGradient>
+        <radialGradient id="g5">
+            <stop offset="0%" stop-color="var(--blue-strong)" stop-opacity="var(--blue-strong-a)"/>
+            <stop offset="26%" stop-color="var(--blue-strong)" stop-opacity="var(--blue-soft-a)"/>
+            <stop offset="54%" stop-color="var(--blue-strong)" stop-opacity="0"/>
+        </radialGradient>
+        <radialGradient id="g6">
+            <stop offset="0%" stop-color="var(--amber-strong)" stop-opacity="var(--amber-strong-a)"/>
+            <stop offset="28%" stop-color="var(--amber-strong)" stop-opacity="var(--amber-soft-a)"/>
+            <stop offset="56%" stop-color="var(--amber-strong)" stop-opacity="0"/>
+        </radialGradient>
+        <radialGradient id="g7">
+            <stop offset="0%" stop-color="var(--rose-strong)" stop-opacity="var(--rose-strong-a)"/>
+            <stop offset="26%" stop-color="var(--rose-strong)" stop-opacity="var(--rose-soft-a)"/>
+            <stop offset="54%" stop-color="var(--rose-strong)" stop-opacity="0"/>
+        </radialGradient>
+        <radialGradient id="g8">
+            <stop offset="0%" stop-color="var(--emer-strong)" stop-opacity="var(--emer-strong-a)"/>
+            <stop offset="28%" stop-color="var(--emer-strong)" stop-opacity="var(--emer-soft-a)"/>
+            <stop offset="56%" stop-color="var(--emer-strong)" stop-opacity="0"/>
+        </radialGradient>
+        <radialGradient id="g9">
+            <stop offset="0%" stop-color="var(--vio-strong)" stop-opacity="var(--vio-strong-a)"/>
+            <stop offset="26%" stop-color="var(--vio-strong)" stop-opacity="var(--vio-soft-a)"/>
+            <stop offset="54%" stop-color="var(--vio-strong)" stop-opacity="0"/>
+        </radialGradient>
+        <radialGradient id="g10">
+            <stop offset="0%" stop-color="var(--amber-strong)" stop-opacity="var(--amber-strong-a)"/>
+            <stop offset="24%" stop-color="var(--amber-strong)" stop-opacity="var(--amber-soft-a)"/>
+            <stop offset="52%" stop-color="var(--amber-strong)" stop-opacity="0"/>
+        </radialGradient>
+        <radialGradient id="g11">
+            <stop offset="0%" stop-color="var(--blue-strong)" stop-opacity="var(--blue-strong-a)"/>
+            <stop offset="26%" stop-color="var(--blue-strong)" stop-opacity="var(--blue-soft-a)"/>
+            <stop offset="54%" stop-color="var(--blue-strong)" stop-opacity="0"/>
+        </radialGradient>
+        <radialGradient id="g12">
+            <stop offset="0%" stop-color="var(--cyan-strong)" stop-opacity="var(--cyan-strong-a)"/>
+            <stop offset="24%" stop-color="var(--cyan-strong)" stop-opacity="var(--cyan-soft-a)"/>
+            <stop offset="48%" stop-color="var(--cyan-strong)" stop-opacity="0"/>
+        </radialGradient>
+    </defs>
+    
+    <rect width="2808" height="7216" fill="var(--bg-solid)"/>
+    
+    <circle cx="468" cy="720" r="900" fill="url(#g1)"/>
+    <circle cx="2100" cy="520" r="950" fill="url(#g2)"/>
+    <circle cx="700" cy="2400" r="880" fill="url(#g3)"/>
+    <circle cx="2350" cy="2800" r="920" fill="url(#g4)"/>
+    <circle cx="1404" cy="1200" r="800" fill="url(#g5)"/>
+    <circle cx="900" cy="3300" r="820" fill="url(#g6)"/>
+    <circle cx="650" cy="1650" r="840" fill="url(#g7)"/>
+    <circle cx="2500" cy="1100" r="900" fill="url(#g8)"/>
+    <circle cx="1850" cy="2100" r="820" fill="url(#g9)"/>
+    <circle cx="1250" cy="850" r="780" fill="url(#g10)"/>
+    <circle cx="1950" cy="400" r="880" fill="url(#g11)"/>
+    <circle cx="450" cy="2950" r="740" fill="url(#g12)"/>
+    
+    <circle cx="2200" cy="3900" r="880" fill="url(#g1)"/>
+    <circle cx="550" cy="4600" r="920" fill="url(#g2)"/>
+    <circle cx="1750" cy="5200" r="850" fill="url(#g3)"/>
+    <circle cx="800" cy="5800" r="890" fill="url(#g4)"/>
+    <circle cx="2400" cy="4800" r="810" fill="url(#g5)"/>
+    <circle cx="1500" cy="6400" r="840" fill="url(#g6)"/>
+    <circle cx="2100" cy="6100" r="860" fill="url(#g7)"/>
+    <circle cx="600" cy="6900" r="880" fill="url(#g8)"/>
+    <circle cx="1200" cy="4300" r="790" fill="url(#g9)"/>
+    <circle cx="2650" cy="5600" r="800" fill="url(#g10)"/>
+    <circle cx="950" cy="5000" r="870" fill="url(#g11)"/>
+    <circle cx="1950" cy="6700" r="760" fill="url(#g12)"/>
+    
+    <circle cx="-2340" cy="720" r="900" fill="url(#g1)"/>
+    <circle cx="468" cy="-6496" r="900" fill="url(#g1)"/>
+    <circle cx="468" cy="7936" r="900" fill="url(#g1)"/>
+    <circle cx="3276" cy="720" r="900" fill="url(#g1)"/>
+    
+    <circle cx="4908" cy="520" r="950" fill="url(#g2)"/>
+    <circle cx="2100" cy="-6696" r="950" fill="url(#g2)"/>
+    <circle cx="2100" cy="7736" r="950" fill="url(#g2)"/>
+    <circle cx="-708" cy="520" r="950" fill="url(#g2)"/>
+    
+    <circle cx="-2108" cy="2400" r="880" fill="url(#g3)"/>
+    <circle cx="700" cy="-4816" r="880" fill="url(#g3)"/>
+    <circle cx="700" cy="9616" r="880" fill="url(#g3)"/>
+    <circle cx="3508" cy="2400" r="880" fill="url(#g3)"/>
+    
+    <circle cx="5158" cy="2800" r="920" fill="url(#g4)"/>
+    <circle cx="2350" cy="-4416" r="920" fill="url(#g4)"/>
+    <circle cx="2350" cy="10016" r="920" fill="url(#g4)"/>
+    <circle cx="-458" cy="2800" r="920" fill="url(#g4)"/>
+    
+    <circle cx="-1404" cy="1200" r="800" fill="url(#g5)"/>
+    <circle cx="1404" cy="-6016" r="800" fill="url(#g5)"/>
+    <circle cx="1404" cy="8416" r="800" fill="url(#g5)"/>
+    <circle cx="4212" cy="1200" r="800" fill="url(#g5)"/>
+    
+    <circle cx="-1908" cy="3300" r="820" fill="url(#g6)"/>
+    <circle cx="900" cy="-3916" r="820" fill="url(#g6)"/>
+    <circle cx="900" cy="10516" r="820" fill="url(#g6)"/>
+    <circle cx="3708" cy="3300" r="820" fill="url(#g6)"/>
+    
+    <circle cx="-2158" cy="1650" r="840" fill="url(#g7)"/>
+    <circle cx="650" cy="-5566" r="840" fill="url(#g7)"/>
+    <circle cx="650" cy="8866" r="840" fill="url(#g7)"/>
+    <circle cx="3458" cy="1650" r="840" fill="url(#g7)"/>
+    
+    <circle cx="5308" cy="1100" r="900" fill="url(#g8)"/>
+    <circle cx="2500" cy="-6116" r="900" fill="url(#g8)"/>
+    <circle cx="2500" cy="8316" r="900" fill="url(#g8)"/>
+    <circle cx="-308" cy="1100" r="900" fill="url(#g8)"/>
+    
+    <circle cx="-958" cy="2100" r="820" fill="url(#g9)"/>
+    <circle cx="1850" cy="-5116" r="820" fill="url(#g9)"/>
+    <circle cx="1850" cy="9316" r="820" fill="url(#g9)"/>
+    <circle cx="4658" cy="2100" r="820" fill="url(#g9)"/>
+    
+    <circle cx="-1558" cy="850" r="780" fill="url(#g10)"/>
+    <circle cx="1250" cy="-6366" r="780" fill="url(#g10)"/>
+    <circle cx="1250" cy="8066" r="780" fill="url(#g10)"/>
+    <circle cx="4058" cy="850" r="780" fill="url(#g10)"/>
+    
+    <circle cx="-858" cy="400" r="880" fill="url(#g11)"/>
+    <circle cx="1950" cy="-6816" r="880" fill="url(#g11)"/>
+    <circle cx="1950" cy="7616" r="880" fill="url(#g11)"/>
+    <circle cx="4758" cy="400" r="880" fill="url(#g11)"/>
+    
+    <circle cx="-2358" cy="2950" r="740" fill="url(#g12)"/>
+    <circle cx="450" cy="-4266" r="740" fill="url(#g12)"/>
+    <circle cx="450" cy="10166" r="740" fill="url(#g12)"/>
+    <circle cx="3258" cy="2950" r="740" fill="url(#g12)"/>
+    
+    <circle cx="5008" cy="3900" r="880" fill="url(#g1)"/>
+    <circle cx="2200" cy="-3316" r="880" fill="url(#g1)"/>
+    <circle cx="2200" cy="11116" r="880" fill="url(#g1)"/>
+    <circle cx="-608" cy="3900" r="880" fill="url(#g1)"/>
+    
+    <circle cx="-2258" cy="4600" r="920" fill="url(#g2)"/>
+    <circle cx="550" cy="-2616" r="920" fill="url(#g2)"/>
+    <circle cx="550" cy="10816" r="920" fill="url(#g2)"/>
+    <circle cx="3358" cy="4600" r="920" fill="url(#g2)"/>
+    
+    <circle cx="4558" cy="5200" r="850" fill="url(#g3)"/>
+    <circle cx="1750" cy="-2016" r="850" fill="url(#g3)"/>
+    <circle cx="1750" cy="10416" r="850" fill="url(#g3)"/>
+    <circle cx="-1058" cy="5200" r="850" fill="url(#g3)"/>
+    
+    <circle cx="-2008" cy="5800" r="890" fill="url(#g4)"/>
+    <circle cx="800" cy="-1416" r="890" fill="url(#g4)"/>
+    <circle cx="800" cy="10616" r="890" fill="url(#g4)"/>
+    <circle cx="3608" cy="5800" r="890" fill="url(#g4)"/>
+    
+    <circle cx="5208" cy="4800" r="810" fill="url(#g5)"/>
+    <circle cx="2400" cy="-2416" r="810" fill="url(#g5)"/>
+    <circle cx="2400" cy="12016" r="810" fill="url(#g5)"/>
+    <circle cx="-408" cy="4800" r="810" fill="url(#g5)"/>
+    
+    <circle cx="-1308" cy="6400" r="840" fill="url(#g6)"/>
+    <circle cx="1500" cy="-816" r="840" fill="url(#g6)"/>
+    <circle cx="1500" cy="14616" r="840" fill="url(#g6)"/>
+    <circle cx="4308" cy="6400" r="840" fill="url(#g6)"/>
+    
+    <circle cx="4908" cy="6100" r="860" fill="url(#g7)"/>
+    <circle cx="2100" cy="-1116" r="860" fill="url(#g7)"/>
+    <circle cx="2100" cy="14316" r="860" fill="url(#g7)"/>
+    <circle cx="-708" cy="6100" r="860" fill="url(#g7)"/>
+    
+    <circle cx="-2208" cy="6900" r="880" fill="url(#g8)"/>
+    <circle cx="600" cy="-316" r="880" fill="url(#g8)"/>
+    <circle cx="600" cy="14116" r="880" fill="url(#g8)"/>
+    <circle cx="3408" cy="6900" r="880" fill="url(#g8)"/>
+    
+    <circle cx="-1608" cy="4300" r="790" fill="url(#g9)"/>
+    <circle cx="1200" cy="-2916" r="790" fill="url(#g9)"/>
+    <circle cx="1200" cy="11516" r="790" fill="url(#g9)"/>
+    <circle cx="4008" cy="4300" r="790" fill="url(#g9)"/>
+    
+    <circle cx="5458" cy="5600" r="800" fill="url(#g10)"/>
+    <circle cx="2650" cy="-1616" r="800" fill="url(#g10)"/>
+    <circle cx="2650" cy="12816" r="800" fill="url(#g10)"/>
+    <circle cx="-158" cy="5600" r="800" fill="url(#g10)"/>
+    
+    <circle cx="-1858" cy="5000" r="870" fill="url(#g11)"/>
+    <circle cx="950" cy="-2216" r="870" fill="url(#g11)"/>
+    <circle cx="950" cy="12216" r="870" fill="url(#g11)"/>
+    <circle cx="3758" cy="5000" r="870" fill="url(#g11)"/>
+    
+    <circle cx="4758" cy="6700" r="760" fill="url(#g12)"/>
+    <circle cx="1950" cy="-516" r="760" fill="url(#g12)"/>
+    <circle cx="1950" cy="13916" r="760" fill="url(#g12)"/>
+    <circle cx="-858" cy="6700" r="760" fill="url(#g12)"/>
+</svg>

@@ -1,0 +1,26 @@
+@font-face {
+    font-family: "Montserrat";
+    src: url("Montserrat.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url("Montserrat-Italic.ttf") format("truetype");
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "FirstTimeWriting";
+    src: url("FirstTimeWriting.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "WakeUp";
+    src: url("WakeUp.ttf");
+}
+
+@font-face {
+    font-family: "WakeUp_Italic";
+    src: url("WakeUp_Italic.ttf");
+    font-style: italic
+}

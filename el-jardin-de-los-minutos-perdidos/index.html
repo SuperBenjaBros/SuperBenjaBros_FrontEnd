@@ -1,0 +1,490 @@
+<!DOCTYPE html><html lang="es"> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width"><title>SBB ❘  El Jardin de los Minutos Perdidos</title><meta name="author" content="SuperBenjaBros"><link rel="icon" type="image/svg+xml" href="/favicon.svg"><meta name="description" content="Una abuela siempre dice: &#34;Los minutos perdidos son semillas&#34;..."><meta property="og:type" content="website"><meta property="og:image" content="https://superbenjabros.com/Banner.webp"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta name="twitter:card" content="summary_large_image"><link rel="canonical" href="https://superbenjabros.com"><link rel="stylesheet" href="themes/demonic.css"><link rel="stylesheet" href="/_astro/_slug_.DzU4sMFA.css">
+<style>:root{--select-bg:#68e3a873;--select-ink:#0b0c10;scroll-behavior:smooth;scrollbar-width:thin;scrollbar-color:#ff5e84 #09162a}@supports (color:color(display-p3 0 0 0)){:root{--select-bg:color(display-p3 .538225 .879519 .674884/.45)}}@supports (color:lab(0% 0 0)){:root{--select-bg:lab(82.1365% -46.2453 18.217/.45)}}::selection{background:oklch(from var(--select-bg) calc(l + .1) c h/.15);color:oklch(from inherit l c h/.1);text-shadow:1px 1px 12px var(--blue-strong)}html{background-color:#0b0c10}body{background-image:url(/Multimedia/Background_Cool.svg);background-repeat:repeat}
+#restartBtn{opacity:0;transform-origin:0;width:0;transition:width .2s,opacity .2s;display:inline-flex;overflow:hidden}#restartBtn.is-visible{opacity:1;width:1.5rem}.prose{word-break:break-word;word-break:auto-phrase;-webkit-hyphens:auto;hyphens:auto}main{--pad-x:.75rem}@media (min-width:640px){main{--pad-x:1.5rem}}@media (min-width:768px){main{--pad-x:2.5rem}}.progress{height:2px;width:calc(100% + (var(--pad-x)*2));margin-inline:calc(var(--pad-x)*-1);z-index:10;pointer-events:none;isolation:isolate;position:sticky;top:0;overflow:visible}.progress__bar{width:100%;height:100%;box-shadow:2px 2px 2px var(--bg-solid);transform-origin:0;transform:translate(var(--progress-start-translate))scaleX(.93)translateZ(0);opacity:1;will-change:transform,opacity;will-change:transform;border-top-left-radius:var(--r-left,var(--progress-radius));border-bottom-left-radius:var(--r-left,var(--progress-radius));border-top-right-radius:var(--r-right,var(--progress-radius));border-bottom-right-radius:var(--r-right,var(--progress-radius));background-color:#fff;margin:auto}
+</style></head> <body>  <main class="flex flex-col gap-3
+            p-3 sm:p-6 md:p-10 w-full sm:w-auto m-0 min-h-dvh md:h-auto md:min-h-auto
+            backdrop-blur-xl backdrop-saturate-150
+            rounded-none md:rounded-3xl
+            prose prose-lg prose-h2:mb-2 prose-h1:mb-1 prose-blockquote:my-0
+            text-pretty prose-headings:text-balance
+            text-white bg-black/60
+            prose-headings:text-white prose-strong:text-white prose-a:text-white prose-a:underline-offset-4 prose-blockquote:text-white prose-blockquote:border-l-white prose-code:text-white prose-code:bg-white/10 prose-code:px-1.5 prose-code:py-0.5 prose-code:rounded-m prose-ol:marker:text-white prose-ol:marker:font-semibold prose-ul:marker:text-white mx-auto my-0 md:my-10"> <header class="flex justify-between gap-2"> <strong>#7</strong> <time datetime="2025-06-11" data-localize data-date-style="short"> 2025-06-11 </time> </header> <div class="progress"> <div class="progress__bar"></div> </div> <aside class="flex justify-between items-center h-6"> <div class="flex justify-between items-center h-full"> <button class="h-full" id="playPauseBtn" aria-label="Reproducir"> <svg class="w-full h-full" id="playIcon" viewBox="0 0 24 24" fill="currentColor"> <path d="M8 5v14l11-7z"></path> </svg> <svg class="hidden w-full h-full" id="pauseIcon" viewBox="0 0 24 24" fill="currentColor"> <path d="M6 4h4v16H6zM14 4h4v16h-4z"></path> </svg> </button> <button class="h-full" id="restartBtn" aria-label="Reiniciar"> <svg class="w-full h-full" viewBox="0 0 24 24" fill="currentColor"> <path d="M12 5V1L7 6l5 5V7c3.31 0 6 2.69 6 6s-2.69 6-6 6-6-2.69-6-6H4c0 4.42 3.58 8 8 8s8-3.58 8-8-3.58-8-8-8z"></path> </svg> </button> <div class="ml-0.5"><span id="currentTime">0:00</span> / <span id="totalTime">0:00</span></div> </div> <span>Lectura: <strong id="readingTime" class="reading-time"></strong></span> </aside> <article id="content" class="my-auto"> <p>Una abuela siempre dice: <strong>“Los minutos perdidos son semillas”</strong>. Cuando esperan el autobús o cuece la pasta, ella y su nieto plantan <em>“semillas-minuto”</em>: observan una nube, cuentan hormigas, inventan un chiste. El nieto crece. Un día, atrapado en una espera interminable, recuerda. Mira a su alrededor y ve una forma graciosa en una grieta del suelo. Sonríe. Su <strong><em>“minuto perdido”</em> floreció.</strong></p> </article> <foooter class="flex justify-between items-baseline prose-a:no-underline w-full mx-auto"> <a class="flex" href="https://SuperBenjaBros.com" target="_blank"> <strong class="group origin-bottom-left hover:scale-105 sm:hover:scale-110 hover:-translate-0.5 transition inline-flex gap-1 items-center text-lg sm:text-xl font-extrabold">— SuperBenjaBros<span class="absolute  top-0 -right-2  origin-bottom-left scale-0 group-hover:scale-75 sm:group-hover:scale-100 transition"> <svg class="w-auto h-3" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M2 2H22M22 2V22M6 18L18 6"></path> </svg> </span> </strong> </a> <div class="h-6 flex gap-2.5 relative top-1">  <a title="Patreon" class="hover:scale-150 hover:-translate-0.5 transition-all origin-bottom hover:ml-1" href="https://patreon.com/SuperBenjaBros" target="_blank" rel="noopener noreferrer nofollow"> <svg class="size-full" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1080 1080" style="enable-background:new 0 0 1080 1080;" xml:space="preserve"><style type="text/css">.st0{fill:#FFFFFF;}</style><path class="st0" d="M1033.05,324.45c-0.19-137.9-107.59-250.92-233.6-291.7c-156.48-50.64-362.86-43.3-512.28,27.2 C106.07,145.41,49.18,332.61,47.06,519.31c-1.74,153.5,13.58,557.79,241.62,560.67c169.44,2.15,194.67-216.18,273.07-321.33 c55.78-74.81,127.6-95.94,216.01-117.82C929.71,603.22,1033.27,483.3,1033.05,324.45z"></path></svg> </a> <a title="🏠" class="home hover:scale-[165%] hover:-translate-0.5 origin-bottom transition-all hover:ml-1" href="../"> <svg class="size-full scale-125" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M4 12L12 4L20 12V20H4Z"></path></svg> </a> </div> </foooter> <!-- {home && (
+<style is:global>
+.home {
+    margin: 0;
+    transform: scaleX(0);
+}
+
+</style>
+)} --> </main>  <script>
+    (function () {
+        function parseYMD(s) {
+            const m = /^(\d{4})-(\d{2})-(\d{2})$/.exec(s);
+            if (!m) return null;
+            return new Date(Date.UTC(+m[1], +m[2] - 1, +m[3]));
+        }
+        function fmt(el, d) {
+            const opts = {};
+            if (el.dataset.dateStyle) opts.dateStyle = el.dataset.dateStyle;
+            if (el.dataset.timeStyle) opts.timeStyle = el.dataset.timeStyle;
+            const loc = el.dataset.locale && el.dataset.locale !== "auto" ? el.dataset.locale : undefined;
+            const finalOpts = Object.keys(opts).length ? opts : { dateStyle: "long" };
+            el.textContent = new Intl.DateTimeFormat(loc, finalOpts).format(d);
+        }
+        function localize(el) {
+            if (el.dataset.localized === "1") return;
+            const raw = el.getAttribute("datetime") || (el.textContent || "").trim();
+            let d = null;
+            if (raw) d = raw.includes("T") ? new Date(raw) : parseYMD(raw);
+            if (!(d && !Number.isNaN(d.getTime()))) return;
+            fmt(el, d);
+            el.dataset.localized = "1";
+        }
+        function run() {
+            document.querySelectorAll("time[data-localize]").forEach(localize);
+        }
+        if (document.readyState === "loading") {
+            document.addEventListener("DOMContentLoaded", run, { once: true });
+        } else {
+            run();
+        }
+    })();
+</script></body></html>  <!-- Read Time Bar --> <script>
+    const bar = document.querySelector('.progress__bar');
+    const read_article = bar?.closest('article') || document.querySelector('article');
+
+    if (bar && read_article) {
+        const css = getComputedStyle(document.documentElement);
+        const s0 = 0.93;
+        const s10 = 0.10;
+        const HEAD_WINDOW_VH = parseFloat(css.getPropertyValue('--progress-head-vh')) || 16;
+        const FADE_WINDOW_VH = parseFloat(css.getPropertyValue('--progress-fade-vh')) || 32;
+        const WIDTH_STOP = 1.00;
+        const PRE_WIDEN_FRAC = 0.03;
+        const PRE_LINGER_FRAC = 0.02;
+        const RADIUS_PX = parseFloat(css.getPropertyValue('--progress-radius')) || 55;
+
+        let vh = 0, at = 0, ah = 0, isLong = false, reduce = false;
+        let ticking = false;
+        let progressContainer = bar.parentElement;
+
+        function clamp(x, a, b) { return x < a ? a : x > b ? b : x; }
+        function easeOut(u) { return 1 - Math.pow(1 - u, 3); }
+        function easeIn(u) { return u * u * u; }
+
+        function getViewportHeight() {
+            return window.innerHeight || document.documentElement.clientHeight || 600;
+        }
+
+        function getScrollY() {
+            return window.pageYOffset || window.scrollY || document.documentElement.scrollTop || 0;
+        }
+
+        function measure() {
+            const r = read_article.getBoundingClientRect();
+            const scrollY = getScrollY();
+            
+            vh = getViewportHeight();
+            at = scrollY + r.top;
+            ah = r.height;
+            isLong = ah >= vh * 2;
+            
+            try {
+                reduce = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+            } catch (e) {
+                reduce = false;
+            }
+
+            if (!isLong) {
+                progressContainer.style.position = 'static';
+                const tx = (1 - s0) / 2;
+                bar.style.transform = `translateX(${tx * 100}%) scaleX(${s0}) translateZ(0)`;
+                bar.style.opacity = '1';
+                bar.style.setProperty('--r-left', RADIUS_PX + 'px');
+                bar.style.setProperty('--r-right', RADIUS_PX + 'px');
+            } else {
+                progressContainer.style.position = '';
+            }
+        }
+
+        function applyTransformOpacity(s, tx, alpha, rL, rR) {
+            const transform = `translateX(${(tx * 100).toFixed(2)}%) scaleX(${s.toFixed(4)}) translateZ(0)`;
+            bar.style.transform = transform;
+            bar.style.webkitTransform = transform;
+            bar.style.opacity = String(Math.max(0, Math.min(1, alpha)).toFixed(3));
+            bar.style.setProperty('--r-left', Math.max(0, rL) + 'px');
+            bar.style.setProperty('--r-right', Math.max(0, rR) + 'px');
+        }
+
+        function update() {
+            ticking = false;
+
+            if (!isLong) {
+                return;
+            }
+
+            if (reduce) {
+                const tx = (1 - s0) / 2;
+                applyTransformOpacity(s0, tx, 1, RADIUS_PX, RADIUS_PX);
+                return;
+            }
+
+            const scrollY = getScrollY();
+            const headPx = (HEAD_WINDOW_VH / 100) * vh;
+            const headStart = at - Math.min(headPx, at);
+            const uRaw = clamp((scrollY - headStart) / headPx, 0, 1);
+
+            const u0 = PRE_WIDEN_FRAC;
+            const u1 = clamp(u0 + PRE_LINGER_FRAC, 0, 0.99);
+
+            let s, tx, rL, rR;
+
+            if (uRaw < u0) {
+                const e = easeOut(uRaw / u0);
+                s = s0 + (1 - s0) * e;
+                tx = (1 - s) / 2;
+                rL = RADIUS_PX; 
+                rR = RADIUS_PX;
+            } else if (uRaw < u1) {
+                s = 1;
+                tx = 0;
+                rL = RADIUS_PX; 
+                rR = RADIUS_PX;
+            } else if (uRaw < 1) {
+                const e = easeIn((uRaw - u1) / (1 - u1));
+                s = 1 + (s10 - 1) * e;
+                tx = 0;
+                rL = RADIUS_PX * (1 - e); 
+                rR = RADIUS_PX;
+            } else {
+                const total = Math.max(ah - vh, 1);
+                const v = clamp((scrollY - at) / total, 0, 1);
+                const vw = clamp(v / WIDTH_STOP, 0, 1);
+                s = s10 + (1 - s10) * vw;
+                tx = 0;
+                rL = 0;
+                rR = Math.max(0, RADIUS_PX * (1 - vw));
+            }
+
+            const articleBottom = at + ah;
+            const viewportBottom = scrollY + vh;
+            const fadeWin = (FADE_WINDOW_VH / 100) * vh;
+            const remaining = articleBottom - viewportBottom;
+            const alpha = clamp(remaining / fadeWin, 0, 1);
+
+            applyTransformOpacity(s, tx, alpha, rL, rR);
+        }
+
+        function onScroll() {
+            if (!isLong) return;
+            
+            if (!ticking) {
+                ticking = true;
+                requestAnimationFrame(update);
+            }
+        }
+
+        function onResize() {
+            if (!ticking) {
+                ticking = true;
+                requestAnimationFrame(() => { 
+                    measure(); 
+                    if (isLong) {
+                        update();
+                    }
+                });
+            }
+        }
+
+        const eventOptions = { passive: true };
+        
+        window.addEventListener('scroll', onScroll, eventOptions);
+        window.addEventListener('touchmove', onScroll, eventOptions);
+        window.addEventListener('touchend', onScroll, eventOptions);
+        window.addEventListener('resize', onResize, eventOptions);
+        window.addEventListener('orientationchange', () => {
+            setTimeout(onResize, 150);
+        }, eventOptions);
+
+        if (window.ResizeObserver) {
+            const ro = new ResizeObserver(onResize);
+            ro.observe(read_article);
+            
+            window.addEventListener('pagehide', () => {
+                ro.disconnect();
+                window.removeEventListener('scroll', onScroll);
+                window.removeEventListener('touchmove', onScroll);
+                window.removeEventListener('touchend', onScroll);
+                window.removeEventListener('resize', onResize);
+                window.removeEventListener('orientationchange', onResize);
+            });
+        }
+
+        if (window.visualViewport) {
+            window.visualViewport.addEventListener('resize', onResize, eventOptions);
+            window.addEventListener('pagehide', () => {
+                window.visualViewport.removeEventListener('resize', onResize);
+            });
+        }
+
+        measure();
+        setTimeout(() => {
+            measure();
+            if (isLong) {
+                update();
+            }
+        }, 100);
+    }
+</script> <!-- Actions Bar --> <script>
+const article = document.getElementById('content');
+const playPauseBtn = document.getElementById('playPauseBtn');
+const restartBtn = document.getElementById('restartBtn');
+const playIcon = document.getElementById('playIcon');
+const pauseIcon = document.getElementById('pauseIcon');
+const currentTimeEl = document.getElementById('currentTime');
+const totalTimeEl = document.getElementById('totalTime');
+const readingTimeEl = document.getElementById('readingTime');
+
+const STATE = {
+    INITIAL: 'initial',
+    PLAYING: 'playing',
+    PAUSED: 'paused',
+    FINISHED: 'finished'
+};
+
+let state = STATE.INITIAL;
+let utterance = null;
+let totalChars = 0;
+let estimatedDuration = 0;
+let animationFrame = null;
+let startTime = 0;
+let elapsedTime = 0;
+
+function setState(newState) {
+    state = newState;
+    updateUI();
+}
+
+function updateUI() {
+    playIcon.classList.toggle('hidden', state !== STATE.INITIAL && state !== STATE.PAUSED);
+    pauseIcon.classList.toggle('hidden', state !== STATE.PLAYING);
+    restartBtn.classList.toggle('is-visible', state === STATE.PAUSED || state === STATE.FINISHED);
+    
+    switch(state) {
+        case STATE.INITIAL:
+            currentTimeEl.textContent = '';
+            break;
+        
+        case STATE.PLAYING:
+            if (currentTimeEl.textContent === '') {
+                currentTimeEl.textContent = '0:00';
+            }
+            break;
+        
+        case STATE.PAUSED:
+            currentTimeEl.textContent = formatTime(elapsedTime / 1000);
+            break;
+        
+        case STATE.FINISHED:
+            currentTimeEl.textContent = '';
+            break;
+    }
+}
+
+function calculateReadingTime() {
+    const text = article.textContent.trim();
+    const words = text.split(/\s+/).length;
+    const minutes = words / 200;
+    const seconds = minutes * 60;
+    if (seconds < 60) {
+        readingTimeEl.textContent = `${Math.ceil(seconds)}s`;
+    } else if (minutes < 60) {
+        readingTimeEl.textContent = `${Math.ceil(minutes)}min`;
+    } else {
+        const hours = Math.floor(minutes / 60);
+        const mins = Math.ceil(minutes % 60);
+        readingTimeEl.textContent = mins > 0 ? `${hours}h ${mins}min` : `${hours}h`;
+    }
+}
+
+function calculateDuration() {
+    const text = article.textContent.trim();
+    totalChars = text.length;
+    estimatedDuration = (totalChars / 15) * 1000;
+    totalTimeEl.textContent = formatTime(estimatedDuration / 1000);
+}
+
+function initUtterance() {
+    if (window.speechSynthesis) {
+        try {
+            window.speechSynthesis.cancel();
+        } catch (e) {}
+    }
+    stopTimeUpdate();
+    
+    const text = article.textContent.trim();
+    utterance = new SpeechSynthesisUtterance(text);
+    utterance.lang = 'es-ES';
+    utterance.rate = 1;
+    utterance.pitch = 1;
+    utterance.volume = 1;
+    
+    const voices = window.speechSynthesis.getVoices();
+    const spanishVoice = voices.find(v => 
+        v.lang && v.lang.toLowerCase().startsWith('es') &&
+        (v.name.includes('Google') || v.name.includes('Premium') || !v.localService)
+    ) || voices.find(v => v.lang && v.lang.toLowerCase().startsWith('es'));
+    
+    if (spanishVoice) {
+        utterance.voice = spanishVoice;
+    }
+    
+    utterance.onstart = () => {
+        startTimeUpdate();
+    };
+    
+    utterance.onend = () => {
+        stopTimeUpdate();
+        setState(STATE.FINISHED);
+    };
+    
+    utterance.onerror = (e) => {
+        stopTimeUpdate();
+        if (e.error !== 'interrupted') {
+            setState(STATE.FINISHED);
+        }
+    };
+}
+
+function formatTime(seconds) {
+    const mins = Math.floor(seconds / 60);
+    const secs = Math.floor(seconds % 60);
+    return `${mins}:${secs.toString().padStart(2, '0')}`;
+}
+
+function updateCurrentTime() {
+    if (state === STATE.PLAYING) {
+        const now = performance.now();
+        const currentElapsed = elapsedTime + (now - startTime);
+        const progress = Math.min(currentElapsed / estimatedDuration, 1);
+        currentTimeEl.textContent = formatTime((progress * estimatedDuration) / 1000);
+        
+        if (progress < 1) {
+            animationFrame = requestAnimationFrame(updateCurrentTime);
+        } else {
+            stopTimeUpdate();
+            setState(STATE.FINISHED);
+        }
+    }
+}
+
+function startTimeUpdate() {
+    if (animationFrame) {
+        cancelAnimationFrame(animationFrame);
+    }
+    startTime = performance.now();
+    animationFrame = requestAnimationFrame(updateCurrentTime);
+}
+
+function stopTimeUpdate() {
+    if (state === STATE.PLAYING) {
+        const now = performance.now();
+        elapsedTime += (now - startTime);
+    }
+    if (animationFrame) {
+        cancelAnimationFrame(animationFrame);
+        animationFrame = null;
+    }
+}
+
+function initialize() {
+    if (window.speechSynthesis) {
+        try {
+            window.speechSynthesis.cancel();
+        } catch (e) {}
+    }
+    
+    if (window.speechSynthesis && window.speechSynthesis.getVoices().length === 0) {
+        window.speechSynthesis.addEventListener('voiceschanged', () => {}, { once: true });
+    }
+    
+    calculateReadingTime();
+    calculateDuration();
+    setState(STATE.INITIAL);
+}
+
+initialize();
+
+playPauseBtn.addEventListener('click', () => {
+    if (!window.speechSynthesis) return;
+    
+    try {
+        switch(state) {
+            case STATE.INITIAL:
+                if (!utterance) {
+                    initUtterance();
+                }
+                elapsedTime = 0;
+                currentTimeEl.textContent = '0:00';
+                setState(STATE.PLAYING);
+                startTimeUpdate();
+                window.speechSynthesis.speak(utterance);
+                break;
+            
+            case STATE.PLAYING:
+                window.speechSynthesis.pause();
+                stopTimeUpdate();
+                setState(STATE.PAUSED);
+                break;
+            
+            case STATE.PAUSED:
+                setState(STATE.PLAYING);
+                window.speechSynthesis.resume();
+                startTimeUpdate();
+                break;
+        }
+    } catch (e) {
+        setState(STATE.INITIAL);
+    }
+});
+
+restartBtn.addEventListener('click', () => {
+    if (!window.speechSynthesis) return;
+    
+    try {
+        window.speechSynthesis.cancel();
+        stopTimeUpdate();
+        elapsedTime = 0;
+        utterance = null;
+        setState(STATE.INITIAL);
+    } catch (e) {}
+});
+
+window.addEventListener('beforeunload', () => {
+    if (window.speechSynthesis) {
+        try {
+            window.speechSynthesis.cancel();
+        } catch (e) {}
+    }
+    stopTimeUpdate();
+});
+
+window.addEventListener('pagehide', () => {
+    if (window.speechSynthesis) {
+        try {
+            window.speechSynthesis.cancel();
+        } catch (e) {}
+    }
+    stopTimeUpdate();
+});
+
+document.addEventListener('visibilitychange', () => {
+    if (document.hidden && state === STATE.PLAYING && window.speechSynthesis) {
+        try {
+            window.speechSynthesis.pause();
+            stopTimeUpdate();
+            setState(STATE.PAUSED);
+        } catch (e) {}
+    }
+});
+</script>
